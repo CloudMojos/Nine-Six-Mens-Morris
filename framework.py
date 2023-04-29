@@ -1,7 +1,3 @@
-# Author: Lisa Torrey with modifications by Angelica Munyao
-# Purpose: Game and player superclasses from which specific games and players inherit and define their behaviors
-# Citations: Artifical Intelligence Text Book
-
 from time import sleep, time
 # Superclass for games
 class Game(object):
@@ -46,7 +42,6 @@ class Game(object):
             start = time()
             move = player.move(game)
             seconds = time() - start
-
             if player.maximizes():
                 print("Max after", seconds, "seconds.")
 
@@ -56,6 +51,8 @@ class Game(object):
             game = game.child(move, player)
             game.display()
             moves += 1
+            # print('Moves: ')
+            # print(moves)
             sleep(interval)
             player, opponent = opponent, player
 

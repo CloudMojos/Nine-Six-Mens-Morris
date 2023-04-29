@@ -2,7 +2,8 @@
 
 from alphabeta6 import MaxPlayer, MinPlayer
 from six_men_morris import SixMensMorris
-max_player = MaxPlayer()
+from player import MyPlayer
+max_player = MyPlayer()
 min_player = MinPlayer()
 
 max_player.assume(min_player)

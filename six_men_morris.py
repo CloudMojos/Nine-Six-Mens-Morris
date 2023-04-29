@@ -1,9 +1,3 @@
-# Author: Angelica Munyao
-# Title: Six Men's Morris Game Project
-# Citations: Nine Men's Morris Game Description: https://en.wikipedia.org/wiki/Nine_men%27s_morris#Six_men's_morris
-#            Python pass-by-reference or pass-by-value: https://jeffknupp.com/blog/2012/11/13/is-python-callbyvalue-or-callbyreference-neither/
-#            Nine Men's Morris: Evaluation Functions paper by Simona-Alexandra Petcu and Stefan Holban, 2008
-
 from framework import Game
 from copy import deepcopy
 

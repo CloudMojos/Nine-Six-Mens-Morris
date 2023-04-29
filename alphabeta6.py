@@ -1,7 +1,3 @@
-# Author: Lisa Torrey with modifications by Angelica Munyao
-# Purpose: Alpha-beta mini-max agents with depth-limiting
-# Citations: Artifical Intelligence Text Book
-
 from framework import Player
 from math import inf
 
